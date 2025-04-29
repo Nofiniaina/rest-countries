@@ -1,0 +1,51 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap'); */
+
+:root {
+  --dark-blue-elements: hsl(209, 23%, 22%);
+  --very-dark-blue-bg: hsl(207, 26%, 17%);
+  --very-dark-blue-text: hsl(200, 15%, 8%);
+  --dark-gray-input: hsl(0, 0%, 52%);
+  --very-light-gray-bg: hsl(0, 0%, 98%);
+  --white-elements-text: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.light {
+  color: var(--very-dark-blue-text);
+  background-color: var(--very-light-gray-bg);
+}
+
+.light .search-bar .input input {
+  color: var(--very-dark-blue-text);
+}
+
+.dark {
+  color: var(--white-elements-text);
+  background-color: var(--very-dark-blue-bg);
+}
+
+.dark .header {
+  background-color: var(--dark-blue-elements);
+}
+
+.dark .filter div {
+  background-color: var(--dark-blue-elements);
+}
+
+.dark .search-bar .input {
+  color: var(--white-elements-text);
+  background-color: var(--dark-blue-elements);
+}
+
+.dark .search-bar .input input {
+  color: var(--white-elements-text);
+}
