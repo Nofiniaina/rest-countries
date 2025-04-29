@@ -70,3 +70,29 @@
   position: absolute;
   width: 155px;
 }
+
+.countries-list {
+  padding: 35px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.countries-box {
+  width: 250px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.countries-box .countries-box-flag {
+  width: 100%;
+  height: 45%;
+}
+
+.countries-box .countries-box-flag img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}

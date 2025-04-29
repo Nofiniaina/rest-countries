@@ -28,6 +28,10 @@ body {
   color: var(--very-dark-blue-text);
 }
 
+.dark .countries-list .countries-box {
+  background-color: var(--very-light-gray-bg-bg);
+}
+
 .dark {
   color: var(--white-elements-text);
   background-color: var(--very-dark-blue-bg);
@@ -48,4 +52,8 @@ body {
 
 .dark .search-bar .input input {
   color: var(--white-elements-text);
+}
+
+.dark .countries-list .countries-box {
+  background-color: var(--dark-blue-elements);
 }
